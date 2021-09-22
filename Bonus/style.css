@@ -98,10 +98,13 @@ img {
  .row .left, .row .right, .row .central, .row .first, .row .second, .row .third {
     font-size: 1.5rem;
   }
-  #steps .row>.left, #steps .row>.central {
+  #steps .row>.left, #steps .row>.central, #why .row>.first, #why .row>.second {
     width: 50%;
   }
-  #steps .row>.right {
+   #why .row>.first, #why .row>.second, #why .row>.third {
+    float:left
+  }
+  #steps .row>.right, #why .row>.third {
     width: 100%;
   }
   .container.grey {
@@ -113,7 +116,7 @@ img {
   #why .row>.first, #why .row>.second, #why .row>.third {
   margin-top: 50px;
   }
-  /* hr {
-    border-width: 3px;
-    } */
+  hr {
+    display: none;
+    }
 }
