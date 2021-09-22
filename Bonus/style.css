@@ -80,6 +80,9 @@ img {
   .row {
     margin-top: 0;
   }
+  img {
+    height: 150px;
+  }
   #lezioni .row, #why .row {
     background: #F2F2CD;
     padding: 1rem;
@@ -88,9 +91,6 @@ img {
     font-size: 2rem;
     margin-top: 0;
   }
-  /* #lezioni .row>.left, #lezioni .row>.right {
-    width: 100%;
-  } */
   h3 {
     margin: 0;
     font-size: 1.5rem;
@@ -98,10 +98,10 @@ img {
  .row .left, .row .right, .row .central, .row .first, .row .second, .row .third {
     font-size: 1.5rem;
   }
-  /* .right img, .central img  {
-    margin-top: 2rem;
-  } */
-   #steps .row>.left, #steps .row>.central, #steps .row>.right {
+  #steps .row>.left, #steps .row>.central {
+    width: 50%;
+  }
+  #steps .row>.right {
     width: 100%;
   }
   .container.grey {
