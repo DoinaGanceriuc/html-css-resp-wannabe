@@ -71,3 +71,14 @@ img {
 .clear {
   clear: both;
 }
+
+/* media query */
+@media screen and (max-width: 420px) {
+  .row {
+    margin-top: 0;
+  }
+  #lezioni .row, #why .row {
+    background: #F2F2CD;
+    padding: 1rem;
+  }
+}
