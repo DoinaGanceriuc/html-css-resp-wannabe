@@ -113,7 +113,7 @@ img {
   #why .row>.first, #why .row>.second, #why .row>.third {
   margin-top: 50px;
   }
-  hr {
+  /* hr {
     border-width: 3px;
-    }
+    } */
 }
