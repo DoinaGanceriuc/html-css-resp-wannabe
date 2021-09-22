@@ -107,4 +107,10 @@ img {
   #steps .row {
   padding: 1rem;
   }
+  #why .row>.first, #why .row>.second, #why .row>.third {
+  margin-top: 50px;
+  }
+  hr {
+    border-width: 3px;
+    }
 }
